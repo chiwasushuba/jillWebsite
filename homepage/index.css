@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.headerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.header-line {
+  height: 20px;           /* Adjust thickness */
+  background-color: black;
+  border: none;
+  margin-top: 10px;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.lostCitiesText {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 10em;
+  white-space: nowrap;
+}
+
+.adventure-section {
+  display: flex;
+  background-color: #d9c4b0;
+  justify-content: center;
+  padding: 40px;
+}
+
+.adventure-section img {
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+  padding-right: 70px;
+}
+
+.adventure-text {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-left: 20px;
+  max-width: 600px;
+}
+
+.headerPAdventure {
+  font-size: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;        /* Center text horizontally */
+  word-break: break-word;
+}
+
+.adventureTextP{
+  font-size: 25px;
+}
+
+.story-section {
+  display: flex;
+  background-color: #493628;
+  justify-content: center;
+  padding: 40px;
+}
+
+.story-text {
+  display:flex;
+  flex-direction: column;
+  align-items: start;
+  color: white;
+  max-width: auto;
+  gap: -100px;
+}
+
+.storyTextsDiv{
+  display:flex;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.twoTextDiv{
+  display:flex;
+}
+
+.leftTextDiv{
+  width: 100%;
+  padding-right: 25px;
+}
+
+.leftText{
+  font-size: 20px;
+}
+
+.rightTextDiv{
+  width: 100%;
+  padding-left: 25px;
+}
+
+.rightText{
+  font-size: 20px;
+}
+
+
+.headerPStories {
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #f2f2f2;
+  font-size: 0.9em;
+  border-top: 1px solid #ccc;
+}
+
+.footer-left {
+  color: #555;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-right a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* specified classes */
+
+.logo{
+  height: 100px;
+}
+
+.searchDiv{
+  display: flex;
+  display: inline;
+  align-items: center;
+}
+
+.searchLogo{
+  /* height: ; */
+  width: 20px;
+  padding-top: 1em;
+}
+
+
